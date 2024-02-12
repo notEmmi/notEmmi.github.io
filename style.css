@@ -1,0 +1,31 @@
+
+body {
+    background-color: #FDE8ED;
+    height: 100%;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.options {
+    display: inline-block; /* Make the options display inline */
+    margin-top: 10px; /* Add margin space */
+}
+
+.yes,
+.no {
+    display: inline-block; /* Make yes and no display inline */
+    margin: 0 10px; /* Add margin space between yes and no */
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+    font-weight: bold; /* Make text bold */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
